@@ -1,0 +1,140 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+
+}
+
+.area{
+    display: flex;
+    height: 70vh;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.area-centro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(22, 5, 95);
+    width:700px ;
+    height: 420px; ;
+    padding: 50px;
+    margin-left: 50vh;
+    border-radius: 20px;
+}
+    
+div{
+    margin-top: 80px;
+    display:block;
+    text-align:center;
+    padding-left: 40px;
+    color: white;
+}
+
+div button{
+    color: aliceblue;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+    cursor: pointer;
+
+}
+
+button.active, button:hover{
+    background: #eb0404;
+    transition: 5px;
+}
+
+p{
+    padding-top: 20px;
+    font-size: 20px;
+}
+
+img{
+    height: 70px;
+    width: 50px;
+    margin-left: 20px;
+}
+
+button{
+    margin: 30px;
+    font-size: 20px;
+    background-color:gray;
+    font-weight: 20px;
+    color: white;
+    border-radius: 10px;
+    border-width: 5px;
+}
+  
+
+body {
+    font-family: sans-serif;
+    background-color: rgb(29, 137, 224);
+    
+}
+
+nav {
+    background:rgb(7, 39, 109);
+    height: 80px;
+    width: 100%;
+}
+
+label.logo {
+    color: #e4dbdb;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+}
+
+
+nav li {
+    float: right;
+    margin-right: 20px;
+}
+
+nav li {
+    display: inline-block;
+    line-height: 80px;
+    margin: 3px;
+}
+
+nav li a {
+    color: aliceblue;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+
+a.active, a:hover {
+    background:blue;
+    transition: 5px;
+
+}
+
+.checkbtn {
+    font-size: 30px;
+    color: #664747;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+
+#check {
+    display: none;
+}
+@media(max-width: 952px){
+    label.logo{
+        font-size: 30px;
+        padding-left: 50px;
+        
+    }
+}
