@@ -4,7 +4,7 @@ function logar(){
 
     if(login == "root" && senha == "root"){
         alert("sucesso");
-        location.href = "https://www.youtube.com/watch?v=LUMFITn510U";
+        location.href = "https://astrocalm.netlify.app/";
     }else{
         alert ("email ou senha incorretos")
     }
